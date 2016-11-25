@@ -49,7 +49,7 @@
                     <h1 class="page-header" id="release-note">
                         Release notes
                     </h1>
-                    <p class="lead">After a long time in the oven, the eAE is finally starting its journey toward new translational research analytics.</p>
+                    <p class="lead">After a long time in the oven and a lot of work, the eAE is finally starting its journey toward new translational research analytics.</p>
                     <div class="bs-callout bs-callout-warning" id="jquery-required">
                         <h4>Preview software</h4>
                         <p>Please note that eAE <code>v1.0</code> is currently released as <strong>a preview software</strong>. There is no guarantee the software will behave in the intended ways. Please see <a href="#community">below</a> where to follow us for updates.</p>
@@ -59,20 +59,22 @@
                     <h1 class="page-header" id="getting-started">
                         Getting started
                     </h1>
-                    <p class="lead">The eAE will be accessible throught this website in two forms, direct access to our demo servers or packaged binaires which will include a docker container distribution package available by late December this year.</p>
+                    <p class="lead">The eAE will be accessible throught this website in two forms, as open source code or packaged containers which will include a docker container distribution package available by late December this year.</p>
                     <div class="bs-callout bs-callout-info" id="migration">
                         <h4>Where is the source code?</h4>
-                        <p> Part of the code has already been released and the projects are available at that addresses: http://github.com/aoehmichen/eAE and http://github.com/aoehmichen/eAEInterface. The rest of the code is currently undergoing aggressive testing, thus is <strong>not yet available</strong> outside of eTRIKS.</p>
+                        <p> The code has already been released and the projects are publicly available at that address: <a href="http://github.com/aoehmichen/">GitHub eAE</a>. The rest of the code is currently undergoing aggressive testing, thus is <strong>not yet available</strong> outside of eTRIKS.</p>
                     </div>
                     <h2 id="eae-presentation">What is the eAE</h2>
                     <div class="row bs-examples">
+                        <p class="lead" align="justify">The eTRIKS Analytical Environment (eAE) aims at providing a modular framework for managing and analysing large scale data, in particular the massive amount of data being produced by high-throughput technologies.
+                        Not only are there no silver bullets now in view to address all those problems at once but, the very nature of data science requires an environment capable of adapting and evolving at the same pace as science does.
+                        Thus, this framework mandates the development of a scalable, on demand, performant and resilient to failure solution. The modularity of this framework also enable us to add new components (public or private) or replace aging ones by more performant or proprietary ones.
+                        Since flexibly and modularity are the core properties of cloud computing, this makes cloud computing an ideal candidate for supporting this need for an almost organic growth.<br>
+                        The eAE relies on mature open source technologies with strong supporting communities, such as tranSMART, OpenStack, Jupyter and the Apache Spark stack.</p>
                         <div class="col-xs-6 col-md-4">
-                        </div>
-                        <div class="col-xs-6 col-md-4">
-                            <p>A little bit of a text here.</p>
                         </div>
                     </div>
-                    <h2 id="eae-juppyter">How to use the eAE plugin for Jupyter</h2>
+                    <h2 id="eae-juppyter">How to use the eAE version of Jupyter</h2>
                     <div class="row bs-examples">
                         <div class="col-xs-6 col-md-4">
                         </div>
@@ -92,7 +94,7 @@
                             <p>A little bit of a text here.</p>
                         </div>
                     </div>
-                    <h2 id="eae-monitor">How monitor the eAE activity on the clusters</h2>
+                    <h2 id="eae-monitor">How to monitor the eAE activity on the clusters</h2>
                     <div class="row bs-examples">
                         <div class="col-xs-6 col-md-4">
                             <!--<video controls class="thumbnail">-->
@@ -146,12 +148,25 @@
                     <p>There is currently limited to no support for mobile devices.</p>
                 </div>
                 <div class="bs-docs-section">
+                    <h1 class="page-header" id="contributors">Contributors</h1>
+                    <p class="lead">We would like to address our specials to all the contributors whom have helped to make this project possible: </p>
+                    <ul>
+                        <li><a href="#" >Axel Oehmichen</a> A.K.A. Frenchy Number 2 </li>
+                        <li><a href="#" >Florian Guitton</a> A.K.A. Frenchy Number 1 </li>
+                        <li><a href="#" >Kai Sun</a> A.K.A. Kitty </li>
+                        <li><a href="#" >Jean Grizet</a> A.K.A. Frenchy Number 3 </li>
+                        <li><a href="#" >Yike Guo</a> A.K.A. The Boss </li>
+                    </ul>
+                    <p><strong class="text-danger">All of this would of course wouldn't have been possible without the support of the <a href="https://www.imi.europa.eu/" >Innovative Medicines Initiative (IMI)</a>,  <a href="https://etriks.org" > eTRIKS</a> and <a href="https://www.imperial.ac.uk/data-science/" > Data Science Institute</a>.</strong> </p>
+
+                </div>
+                <div class="bs-docs-section">
                     <h1 class="page-header" id="community">Community</h1>
                     <p class="lead">Stay up to date on the development of eAE and reach out to the community with these helpful resources.</p>
                     <ul>
-                        <li>Read and subscribe to <a href="http://blog.biospeak.solutions/eae">The Official eAE Blog</a>.</li>
-                        <li>Follow our repository on  <a href="https://github.com/biospeak/eae">GitHub</a>.</li>
-                        <li>Check us out on <a href="https://hub.docker.com/_/eae">Docker Registry</a>.</li>
+                        <li>Read and subscribe to <a href="http://eae.doc.ic.ac.uk/">The Official eAE Blog</a>.</li>
+                        <li>Follow our repositories on GitHub: <a href="https://github.com/aoehmichen/AnalyticsEAE">Analytics eAE</a>, <a href="https://github.com/aoehmichen/interfaceEAE">Interface eAE</a> and <a href="https://github.com/aoehmichen/eAE">eAE plugin for tranSMART</a>.</li>
+                        <li>Check us out on <a href="https://hub.docker.com/r/aoehmich/eae/">Docker Registry</a>.</li>
                     </ul>
                     <br/>
                     <div class="row bs-examples">
@@ -160,32 +175,8 @@
                 </div>
                 <div class="bs-docs-section">
                     <h1 class="page-header" id="license-faqs">License FAQs</h1>
-                    <p class="lead">eAE is released under the MIT license and is copyright 2016 Imperial College London. Boiled down to smaller chunks, it can be described with the following conditions.</p>
-                    <h2 id="it-requires-you-to">It requires you to:</h2>
-                    <ul>
-                        <li>Keep the license and copyright notice included in eAE's CSS and JavaScript files when you use them in your works</li>
-                    </ul>
-                    <h2 id="it-permits-you-to">It permits you to:</h2>
-                    <ul>
-                        <li>Freely download and use eAE, in whole or in part, for personal, private, company internal, or commercial purposes</li>
-                        <li>Use eAE in packages or distributions that you create</li>
-                        <li>Modify the source code</li>
-                        <li>Grant a sublicense to modify and distribute eAE to third parties not included in the license</li>
-                    </ul>
-                    <h2 id="it-forbids-you-to">It forbids you to:</h2>
-                    <ul>
-                        <li>Hold the authors and license owners liable for damages as eAE is provided without warranty</li>
-                        <li>Hold the creators or copyright holders of eAE liable</li>
-                        <li>Redistribute any piece of eAE without proper attribution</li>
-                        <li>Use any marks owned by Twitter in any way that might state or imply that Twitter endorses your distribution</li>
-                        <li>Use any marks owned by Twitter in any way that might state or imply that you created the Twitter software in question</li>
-                    </ul>
-                    <h2 id="it-does-not-require-you-to">It does not require you to:</h2>
-                    <ul>
-                        <li>Include the source of eAE itself, or of any modifications you may have made to it, in any redistribution you may assemble</li>
-                        <li>Submit changes that you make to eAE back to the eAE project (though such feedback is encouraged)</li>
-                    </ul>
-                    <p>The full eAE license is located <a href="https://github.com/biospeak/eae/blob/master/LICENSE">in the project repository</a> for more information.</p>
+                    <p class="lead">eAE is released under the Apache 2 license and is copyright 2016 to Imperial College London.
+                    The full eAE license is located in the projects repositories for more information but if you want a simplified version of the permissions and limitations you can find it at this address: <a href="http://choosealicense.com/licenses/apache-2.0/">Apache 2</a></p>
                 </div>
                 <div class="bs-docs-section">
                     <h1 class="page-header" id="translations">Translations</h1>
@@ -223,11 +214,11 @@
     <footer class="bs-docs-footer">
         <div class="container">
             <ul class="bs-docs-footer-links">
-                <li><a href="https://github.com/biospeak/eae">GitHub</a> </li>
-                <li><a href="https://blog.biospeak.solutions/eae">Blog</a> </li>
+                <li><a href="https://github.com/aoehmichen">GitHub</a> </li>
+                <li><a href="http://eae.doc.ic.ac.uk/">Blog</a> </li>
             </ul>
-            <p>Designed and built with all the love in the world by <a href="http://www.imperial.ac.uk/people/i.emam" target="_blank">Ibrahim Emam</a>. Supported by the <a href="https://www.imperial.ac.uk/data-science/">Data Science Institute</a> with the help of <a href="https://github.com/biospeak/eae/graphs/contributors">our contributors</a>.</p>
-            <p>Code licensed <a href="https://github.com/biospeak/eae/blob/master/LICENSE" target="_blank" rel="license">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license">CC BY 3.0</a>.</p>
+            <p>Designed and built with all the love in the world by <a href="https://www.linkedin.com/in/axel-oehmichen-32297028" target="_blank">Axel Oehmichen</a>. Supported by the <a href="https://www.imperial.ac.uk/data-science/">Data Science Institute</a> with the help of our contributors.</p>
+            <p>Docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license">CC BY 3.0</a>.</p>
         </div>
     </footer>
     <script src="scripts/jquery.min.js"></script>
